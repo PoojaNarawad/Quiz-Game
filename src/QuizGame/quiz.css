@@ -1,0 +1,39 @@
+.heading{
+    background-color: greenyellow;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(217, 39, 39);
+}
+.subheading{
+    margin-top:-20px;
+    color: green;
+}
+.QuestionsList{
+    border: 3px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+.button{
+    background-color: rgb(195, 219, 11);
+    font-size: 1rem;
+    border: none;
+    border-radius: 10%;
+    padding: 0.5rem;
+}
+
+.successMessage{
+    font-weight: 700;
+    color: green;
+}
