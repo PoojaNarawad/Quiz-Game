@@ -43,19 +43,29 @@ const QuizGame = () => {
 
   const questions = [
     {
+      question: "What's the fastest land animal?",
+      options: ["Cheetah", "Tiger", "Lion", "Monkey"],
+      answer: ["Cheetah"]
+    },
+    {
+      question: "“Stars and Stripes” is the nickname of the flag of which country?",
+      options: ["France", "Australia", "USA", "India"],
+      answer: ["USA"]
+    },
+    {
       question: "What is the capital city of France?",
       options: ["Paris", "Berlin", "Madrid", "London"],
       answer: ["Paris"]
     },
     {
-      question: "What is the highest mountain in the world?",
-      options: ["Kilimanjaro", "Everest", "Denali", "Fuji"],
-      answer: ["Everest"]
+      question: "How many legs does a spider have?",
+      options: ["7", "9", "5", "8"],
+      answer: ["8"]
     },
     {
-      question: "Who painted the Mona Lisa?",
-      options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Rembrandt"],
-      answer: ["Leonardo da Vinci"]
+      question: "What country is responsible for creating the Olympic Games?",
+      options: ["Greece", "Canada", "Madrid", "India"],
+      answer: ["Greece"]
     },
   ];
 
